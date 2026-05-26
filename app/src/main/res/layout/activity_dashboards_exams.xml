@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.dashboards.Exams">
+
+    <LinearLayout
+        android:id="@+id/toolbarmenus"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="21sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/black"
+            android:text="@string/exams"
+            android:drawablePadding="10dp"
+            app:drawableStartCompat="@drawable/ic_back"
+            app:drawableTint="@color/black" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:columnCount="2">
+
+            <LinearLayout
+                android:id="@+id/result"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="23dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_result"
+                    app:tint="@color/prime"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/result" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:textColor="@color/black"
+                    android:text="@string/result"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/upcoming"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="23dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_upcoming"
+                    app:tint="@color/prime"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/upcoming" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:textColor="@color/black"
+                    android:text="@string/upcoming"/>
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

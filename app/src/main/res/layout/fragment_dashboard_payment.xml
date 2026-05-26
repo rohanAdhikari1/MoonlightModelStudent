@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.dashboard_payment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3">
+
+            <LinearLayout
+                android:id="@+id/pay_payments"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="23dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_payment"
+                    app:tint="@color/prime"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/payments" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:textColor="@color/black"
+                    android:text="@string/payments"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/creditbill"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="23dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_credit_bill"
+                    app:tint="@color/prime"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/credit_bill" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:text="@string/credit_bill"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/statements"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="23dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_statements"
+                    app:tint="@color/prime"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/statement" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/lato"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:text="@string/statement"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/deusummary"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="23dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_due_summary"
+                    app:tint="@color/prime"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/due_sum" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato"
+                    android:textColor="@color/black"
+                    android:text="@string/due_sum"/>
+
+            </LinearLayout>
+
+        </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

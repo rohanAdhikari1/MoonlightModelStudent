@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.Profile_Detail_View">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_class"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_class"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="......"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_section"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_section"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pascal"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_gender"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_person"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boy"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_phone"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_phone"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9746892002"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_address"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_address"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ratuwamai - 7, Kaparsuka"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_dob"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_birthday"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2062-12-15"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_email"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_email"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="official@rohanadhikari.com.np"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_guardian"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_guardian"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khem Adhikari"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_father"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_father"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khem Adhikari"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_mother"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_mother"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kopila Adhikari"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_bus_location"
+                android:textColor="@color/prime"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:fontFamily="sans-serif"
+                app:drawableStartCompat="@drawable/ic_bus"
+                app:drawableTint="@color/prime" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaparsuka"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/lato"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

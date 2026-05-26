@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989815477106",
+    "project_id": "moonlightsoftware-7e34b",
+    "storage_bucket": "moonlightsoftware-7e34b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989815477106:android:ddb118c1ceb532407d43eb",
+        "android_client_info": {
+          "package_name": "com.rohan.moonlightmodelstudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989815477106-sm1ikftmb4aruj32o2hptfolll7tjduv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe6ARYOfqGgGDafRomfiesb6ILLK43VAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989815477106-sm1ikftmb4aruj32o2hptfolll7tjduv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

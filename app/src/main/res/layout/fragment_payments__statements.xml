@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg"
+    tools:context=".ui.fragments.payments.payment_statements">
+
+    <LinearLayout
+        android:id="@+id/toolbarmenus"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/backstatements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="21sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/black"
+            android:text="@string/unavailable"
+            android:drawablePadding="10dp"
+            app:drawableStartCompat="@drawable/ic_back"
+            app:drawableTint="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:text="@string/oops"
+            android:textSize="19sp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_construction"
+            app:tint="@color/prime" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:text="@string/page_under_construction"
+            android:textSize="18sp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

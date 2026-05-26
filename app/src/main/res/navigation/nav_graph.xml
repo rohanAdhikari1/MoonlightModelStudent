@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard_dashboard">
+
+    <action
+        android:id="@+id/action_dashboard_elearn_to_dashboard_payment"
+        app:destination="@id/dashboard_payment"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_elearn_to_dashboard_profile"
+        app:destination="@id/dashboard_profile"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_elearn_to_dashboard_calendar"
+        app:destination="@id/dashboard_calendar"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_elearn_to_dashboard_dashboard"
+        app:destination="@id/dashboard_dashboard"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+
+    <action
+        android:id="@+id/action_dashboard_calendar_to_dashboard_payment"
+        app:destination="@id/dashboard_payment"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_calendar_to_dashboard_elearn"
+        app:destination="@id/dashboard_elearn"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+    <action
+        android:id="@+id/action_dashboard_calendar_to_dashboard_profile"
+        app:destination="@id/dashboard_profile"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_calendar_to_dashboard_dashboard"
+        app:destination="@id/dashboard_dashboard"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+
+    <action
+        android:id="@+id/action_dashboard_dashboard_to_dashboard_profile"
+        app:destination="@id/dashboard_profile"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_dashboard_to_dashboard_payment"
+        app:destination="@id/dashboard_payment"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_dashboard_to_dashboard_calendar"
+        app:destination="@id/dashboard_calendar"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+    <action
+        android:id="@+id/action_dashboard_dashboard_to_dashboard_elearn"
+        app:destination="@id/dashboard_elearn"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+
+    <action
+        android:id="@+id/action_dashboard_payment_to_dashboard_profile"
+        app:destination="@id/dashboard_profile"
+        app:enterAnim="@anim/enter_from_right"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_payment_to_dashboard_elearn"
+        app:destination="@id/dashboard_elearn"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_left" />
+    <action
+        android:id="@+id/action_dashboard_payment_to_dashboard_calendar"
+        app:destination="@id/dashboard_calendar"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+    <action
+        android:id="@+id/action_dashboard_payment_to_dashboard_dashboard"
+        app:destination="@id/dashboard_dashboard"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+
+    <action
+        android:id="@+id/action_dashboard_profile_to_dashboard_dashboard"
+        app:destination="@id/dashboard_dashboard"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+    <action
+        android:id="@+id/action_dashboard_profile_to_dashboard_calendar"
+        app:destination="@id/dashboard_calendar"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+    <action
+        android:id="@+id/action_dashboard_profile_to_dashboard_payment"
+        app:destination="@id/dashboard_payment"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+    <action
+        android:id="@+id/action_dashboard_profile_to_dashboard_elearn"
+        app:destination="@id/dashboard_elearn"
+        app:enterAnim="@anim/enter_from_left"
+        app:exitAnim="@anim/exit_to_right" />
+
+    <fragment
+        android:id="@+id/dashboard_profile"
+        android:name="com.rohan.moonlightmodelstudent.ui.fragments.dashboard_profile"
+        android:label="fragment_dashboard_profile"
+        tools:layout="@layout/fragment_dashboard_profile" >
+    </fragment>
+    <fragment
+        android:id="@+id/dashboard_dashboard"
+        android:name="com.rohan.moonlightmodelstudent.ui.fragments.dashboard_dashboard"
+        android:label="fragment_dashboard_dashboard"
+        tools:layout="@layout/fragment_dashboard_dashboard" >
+    </fragment>
+    <fragment
+        android:id="@+id/dashboard_payment"
+        android:name="com.rohan.moonlightmodelstudent.ui.fragments.dashboard_payment"
+        android:label="fragment_dashboard_payment"
+        tools:layout="@layout/fragment_dashboard_payment" >
+    </fragment>
+    <fragment
+        android:id="@+id/dashboard_calendar"
+        android:name="com.rohan.moonlightmodelstudent.ui.fragments.dashboard_calendar"
+        android:label="fragment_dashboard_calendar"
+        tools:layout="@layout/fragment_dashboard_calendar" >
+    </fragment>
+    <fragment
+        android:id="@+id/dashboard_elearn"
+        android:name="com.rohan.moonlightmodelstudent.ui.fragments.dashboard_elearn"
+        android:label="fragment_dashboard_elearn"
+        tools:layout="@layout/fragment_dashboard_elearn" >
+    </fragment>
+</navigation>
